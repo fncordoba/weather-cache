@@ -26,41 +26,41 @@ Este proyecto es una aplicación para obtener información meteorológica con un
 
 **Requisito previo:** Se recomienda tener un servidor Redis en ejecución en su puerto predeterminado. Para levantar un servidor Redis con Docker, puedes usar el siguiente comando:
 
-\```bash
+```bash
 docker run --name some-redis -d -p 6379:6379 redis
-\```
+```
 
 **Instalación de Dependencias:**
-\```bash
+```bash
 $ npm install
-\```
+```
 
 **Ejecución de la Aplicación:**
 
 - **Modo Desarrollo:**
-  \```bash
-  $ npm run start:dev
-  \```
+```bash
+$ npm run start:dev
+```
 
 - **Modo Producción:**
-  \```bash
-  $ npm run start:prod
-  \```
+```bash
+$ npm run start:prod
+```
 
 **Pruebas:**
 
 - **Tests Unitarios:**
-  \```bash
-  $ npm run test
-  \```
+```bash
+$ npm run test
+```
 
 - **Tests End-to-End:**
-  \```bash
-  $ npm run test:e2e
-  \```
+```bash
+$ npm run test:e2e
+```
 
 - **Cobertura de Tests:**
-  \```bash
-  $ npm run test:cov
-  \```
+```bash
+$ npm run test:cov
+```
 
